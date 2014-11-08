@@ -27,15 +27,15 @@ layout: default
           <span class="getdate">{{ page.date | date: "%b %-d, %Y" }}</span>
           <span class="mood">Today's Mood</span>
           <span class="moodimage" style="background-image: url({{ page.meta:Mood }});"></span>
-          <span class="thetags"> {{ page.tags }}</span>
+          
         </div>
         <div class="entry">
             {{ page.content }}
         
         </div>
-        
+            {% include comments.html %}
       </div>
-  
+      
  
       </article>
 

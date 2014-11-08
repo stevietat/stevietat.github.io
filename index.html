@@ -18,7 +18,6 @@ layout: default
           <span class="getdate">{{ post.date | date: "%b %-d, %Y" }}</span>
           <span class="mood">Today's Mood</span>
           <span class="moodimage" style="background-image: url({{ post.meta:Mood }});"></span>
-          <span class="thetags"> {{ post.tags }}</span>
         </div>
         <div class="entry">
             {% if post.content contains "<!--more-->" %}
@@ -50,6 +49,20 @@ layout: default
   {% endif %}
 </div>
 {% endif %}
+
+<a href="#sidebar" class="sidebar_toggle">
+<img src="http://staubman.com/wp-content/themes/HTML5-Reset-Wordpress-Theme-master-child/images/menuarrow-index.png" alt="Menu" class="indexmenu-black">
+<img src="http://staubman.com/wp-content/themes/HTML5-Reset-Wordpress-Theme-master-child/images/menuarrow.png" alt="Menu" class="indexmenu-white">
+</a>
+<script type="text/javascript">
+  var jPM = $.jPanelMenu({
+      menu: '#sidebar',
+      trigger: '.sidebar_toggle',
+      direction : 'right',
+      openPosition : '250px'
+  });
+  jPM.on();
+</script> 
 
 
 </div>
