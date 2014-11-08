@@ -11,7 +11,7 @@ layout: default
       <article>
 
         <div id="topportion" class="index" style="background-image: url({{ post.meta:Post_Background }}); ">
-          <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
         </div>
         <div id="wrapper">
         <div id="details">
@@ -50,19 +50,9 @@ layout: default
 </div>
 {% endif %}
 
-<a href="#sidebar" class="sidebar_toggle">
-<img src="http://staubman.com/wp-content/themes/HTML5-Reset-Wordpress-Theme-master-child/images/menuarrow-index.png" alt="Menu" class="indexmenu-black">
-<img src="http://staubman.com/wp-content/themes/HTML5-Reset-Wordpress-Theme-master-child/images/menuarrow.png" alt="Menu" class="indexmenu-white">
-</a>
-<script type="text/javascript">
-  var jPM = $.jPanelMenu({
-      menu: '#sidebar',
-      trigger: '.sidebar_toggle',
-      direction : 'right',
-      openPosition : '250px'
-  });
-  jPM.on();
-</script> 
-
 
 </div>
+<a href="#sidebar" class="sidebar_toggle">
+<img src="http://staubman.com/wp-content/themes/HTML5-Reset-Wordpress-Theme-master-child/images/menuarrow-index.png" alt="Menu" class="indexmenu-black">
+
+</a>
