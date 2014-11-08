@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  
+
+  <ul class="post-list">
+    {% for post in paginator.posts %}
+      <article>
+
+        <div id="topportion" class="index" style="background-image: url({{ post.meta:Post_Background }}); ">
+          <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </div>
+        <div id="wrapper">
+        <div id="details">
+          <span class="getdate">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <span class="mood">Today's Mood</span>
+          <span class="moodimage" style="background-image: url({{ post.meta:Mood }});"></span>
+          <span class="thetags"> {{ post.tags }}</span>
+        </div>
+        <div class="entry">
+            {% if post.content contains "<!--more-->" %}
+            {{ post.content | split:"<!--more-->" | first % }}
+            {% else %}
+            {{ post.content }}
+            {% endif %}
+          <a href="{{ site.baseurl }}{{ post.url }}" class="more-link">Continue reading...</a>  
+        
+        </div>
+      </div>
+
+ 
+      </article>
+    {% endfor %}
+  </ul>
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+  {% else %}
+    <span>&laquo; Prev</span>
+  {% endif %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+  {% else %}
+    <span>Next &raquo;</span>
+  {% endif %}
+</div>
+{% endif %}
+
+
+</div>

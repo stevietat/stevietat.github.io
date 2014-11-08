@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<div class="home">
+
+   {% if page.previous.url %} 
+        <div id="prevpost" class="nextnav">
+            <a href="{{page.previous.url}}" title="{{page.previous.title}}"><span>{{page.previous.title}}</span><img src="http://www.staubman.com/wp-content/themes/HTML5-Reset-Wordpress-Theme-master-child/images/prevarrow.png"></a> 
+        </div> 
+        {% endif %} 
+        
+        {% if page.next.url %} 
+        <div id="nextpost" class="nextnav">
+                <a href="{{page.next.url}}" title="{{page.next.title}}"><img src="http://www.staubman.com/wp-content/themes/HTML5-Reset-Wordpress-Theme-master-child/images/nextarrow.png"><span>{{page.next.title}}</span></a> 
+        </div>
+        {% endif %} 
+
+
+      <article>
+
+        <div id="topportion" class="single" style="background-image: url({{ page.meta:Post_Background }}); ">
+          <h2>{{ page.title }}</h2>
+        </div>
+        <div id="wrapper">
+        <div id="details">
+          <span class="getdate">{{ page.date | date: "%b %-d, %Y" }}</span>
+          <span class="mood">Today's Mood</span>
+          <span class="moodimage" style="background-image: url({{ page.meta:Mood }});"></span>
+          <span class="thetags"> {{ page.tags }}</span>
+        </div>
+        <div class="entry">
+            {{ page.content }}
+        
+        </div>
+        
+      </div>
+  
+ 
+      </article>
+
+
+
+  
+
+</div>
