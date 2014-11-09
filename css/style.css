@@ -219,9 +219,33 @@ background-color: rgba(0,0,0,0.5);
 	right: 40px;	
 }
 
+.pagination{
+	width: 100%;
+	text-align: center;
+	color: #ccc;
+	margin-bottom:50px;
+	margin-top:30px;
+}
+.pagination span, .pagination a{
+	padding: 20px;
+	border: 2px solid #eee;
+	border-radius: 10px;
+	width: 200px;
+	display: inline-block;
+}
 
-
-
+footer{
+	font-size: 12px;
+	font-family: 'Merriweather', serif;
+	color: #bbb;
+	text-align: center;
+}
+footer p{
+	padding: 30px;
+	border-top:1px solid #eee;
+	display: inline-block;
+	width: 50%;
+}
 
 
 #topportion{
