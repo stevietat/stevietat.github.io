@@ -620,7 +620,7 @@ margin-bottom: 15px;
 }
 
 #portrait{
-	background: url('images/portrait.gif') center no-repeat;
+	background: url('../img/portrait.gif') center no-repeat;
 	width: 100px;
 	height: 100px;
 	-webkit-border-radius: 50px;
