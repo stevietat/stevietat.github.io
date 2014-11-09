@@ -29,9 +29,7 @@ author:
 
 I for one was happy to see Apple's recent move from their realistic, glossy design aesthetic to a much simpler one. While this isn't anything new (many websites have been shedding their Web 2.0 trimmings for a while now), the fact that such a big player in the industry has made the switch has given the movement much more clout. It's a lot easier to sell a lens-flare demanding client on a simpler and cleaner design when you can simply point to Apple and say 'See, they're doing it!'.
 
-To clarify, there are 2 terms we should separate in this discussion. The term "flat design" really only applies to the idea of using solid colours without visual noise like bevels, gradations, drop-shadows, etc. There's also a much greater emphasis on typography and designing to a grid. Again, this is nothing new: For some flat design inspiration make sure to check out what Swiss/International designers were doing back in the 1920s. The other term we should be talking about is **skeuomorphic** design, which means designing something to resemble its real life counterpart. The way Apple's notebook, calendar and calculator apps resemble their real life counterparts in look and feel are perfect examples of this.
-
-<!--more-->
+To clarify, there are 2 terms we should separate in this discussion. The term "flat design" really only applies to the idea of using solid colours without visual noise like bevels, gradations, drop-shadows, etc. There's also a much greater emphasis on typography and designing to a grid. Again, this is nothing new: For some flat design inspiration make sure to check out what Swiss/International designers were doing back in the 1920s. The other term we should be talking about is **skeuomorphic** design, which means designing something to resemble its real life counterpart. The way Apple's notebook, calendar and calculator apps resemble their real life counterparts in look and feel are perfect examples of this. <!--more-->
 
 #### Making the calculator flat
 
