@@ -19,7 +19,7 @@ layout: default
 
       <article>
 
-        <div id="topportion" class="single" style="background-image: url({{ page.meta:Post_Background }}); ">
+        <div id="topportion" class="single" style="background-image: url('{{site.url}}assets/{{ page.meta:Post_Background }}); ">
           <h2>{{ page.title }}</h2>
         </div>
         <div id="wrapper">
@@ -30,7 +30,7 @@ layout: default
           
         </div>
         <div class="entry">
-            {{ page.content }}
+            {{ content }}
         
         </div>
             {% include comments.html %}
