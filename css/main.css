@@ -133,16 +133,12 @@ a:hover, a:active, p:hover, ol:hover, li:hover {
 
 #wrapper{
 }
-.logoindex{
-	position: fixed;
-}
-.logosingle{
-	position: absolute;
-}
+
 #logowrapper{
 	width: 100%;
 	text-align: center;
 	top: 0px;
+	
 }
 
 
@@ -151,6 +147,7 @@ a:hover, a:active, p:hover, ol:hover, li:hover {
 	margin: 0 auto;
 	text-align: left;
 	font-size: 0px;
+
 }
 #logo img{
 	transition: background-color .25s linear;
@@ -481,6 +478,7 @@ article .more-link{
 article .imagecaption {
 	position: relative;
 	width: 960px;
+
 
 }
 article .imagecaption img, article .imagecaption iframe{

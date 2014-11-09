@@ -133,16 +133,12 @@ a:hover, a:active, p:hover, ol:hover, li:hover {
 
 #wrapper{
 }
-.logoindex{
-	position: fixed;
-}
-.logosingle{
-	position: absolute;
-}
+
 #logowrapper{
 	width: 100%;
 	text-align: center;
 	top: 0px;
+	position: fixed;
 }
 
 
@@ -481,7 +477,7 @@ article .more-link{
 	font-size: 1em;
 }
 article .imagecaption {
-	position: relative;
+
 	width: 960px;
 
 }

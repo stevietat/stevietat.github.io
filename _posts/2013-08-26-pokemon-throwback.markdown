@@ -10,7 +10,7 @@ published: true
 meta:
   _edit_last: '1'
   Post_Background: cover.jpg
-  Mood: http://staubman.com/wp-content/uploads/2013/08/pikachu.gif
+  Mood: pikachu.gif
   dsq_thread_id: '1650594832'
 author:
   login: admin

@@ -1,0 +1,34 @@
+---
+layout: post
+title: Anaconda
+date: 2010-03-24 05:53:48.000000000 -04:00
+categories:
+- Infographic
+tags:
+- Anaconda
+- JLO
+- Snakes
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '1'
+  Post_Background: anaconda.jpg
+  Mood: moodanaconda.gif
+  dsq_thread_id: '1374395518'
+author:
+  login: admin
+  email: stevietat@hotmail.com
+  display_name: Stivo
+  first_name: Stephen
+  last_name: Taubman
+---
+1997's [Anaconda](http://www.imdb.com/title/tt0118615/) is easily one of my favourite creature features. Mediocre story, passable special effects, and half a cast hailing from MTV, it had all the right ingredients for greatness. Throw in John Voight to bring in some real acting chops, and you got yourself one of the best snake movies of all time. But of course the snake was the real star of the movie, and what a bad-ass snake he was. Whether it was the breakneck speeds at which he could travel and climb, or his amazing resiliency to overcome explosions and being set on fire, the movie definitely gave us a creature to fear.<!--more-->
+
+Now it's pretty obvious most snakes can't do any of those things. Even regular Anacondas can't catch a falling man while harnessed to a tree, or scarf down Jon Voight in a matter of seconds. But we're not talking about regular Anacondas here. We're talking about the more elusive and mythical [Giant Anaconda](http://en.wikipedia.org/wiki/Giant_anaconda), which still remains somewhat of a mystery with regards to its existence. But one can dream, and the movie did a pretty good job of fleshing out this impressive beast.
+
+Which leads to the infographic. While most people might think that Giant Anaconda is just a big-ass snake, it really goes way beyond the difference in size. I wanted to take an in-depth look at the other differentiating abilities of Giant Anaconda that makes him one of a kind.
+
+Definitely check out the [larger version]({{site.url}}assets/anaconda-full.jpg) of the image to see all the details, and hope you enjoy!
+
+<a href="{{site.url}}assets/anaconda-full.jpg"><img class="aligncenter size-full wp-image-151" title="Anaconda" alt="" src="{{site.url}}assets/anaconda-inline.jpg" width="760" height="548" /></a>

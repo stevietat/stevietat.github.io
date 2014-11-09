@@ -19,14 +19,14 @@ layout: default
 
       <article>
 
-        <div id="topportion" class="single" style="background-image: url('{{site.url}}assets/{{ page.meta:Post_Background }}); ">
+        <div id="topportion" class="single" style="background-image: url('{{site.url}}assets/{{page.meta:Post_Background}}');">
           <h2>{{ page.title }}</h2>
         </div>
         <div id="wrapper">
         <div id="details">
           <span class="getdate">{{ page.date | date: "%b %-d, %Y" }}</span>
           <span class="mood">Today's Mood</span>
-          <span class="moodimage" style="background-image: url({{ page.meta:Mood }});"></span>
+          <span class="moodimage" style="background-image: url('{{site.url}}assets/{{ page.meta:Mood }}');"></span>
           
         </div>
         <div class="entry">
