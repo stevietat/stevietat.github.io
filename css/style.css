@@ -461,7 +461,7 @@ article blockquote p{
 	padding-left: 50px;
 	color: #555;
 	font-weight: 700;
-	background: url('images/quote.png') no-repeat top left;
+	background: url('../img/quote.png') no-repeat top left;
 	transition: color .25s, background .25s, border .25s linear;
 	-moz-transition: color .25s, background .25s, border .25s linear;
    -webkit-transition: color .25s, background .25s, border .25s linear;
@@ -469,7 +469,7 @@ article blockquote p{
 }
 article blockquote p:hover{
 	border-left: 3px solid #00a487;
-	background: url('images/quote-hover.png') no-repeat top left;
+	background: url('../img/quote-hover.png') no-repeat top left;
 }
 
 article .more-link{
