@@ -1,7 +1,7 @@
 # Site settings
 title: Stephen Taubman
 email: stephen@staubman.com
-description: > The musings of a UX designer who loves Tech, Games and Sharks. 
+description: "The musings of a UX designer who loves Tech, Games and Sharks." 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: http://stevietat.github.io/ # the base hostname & protocol for your site
 twitter_username: stevietat
