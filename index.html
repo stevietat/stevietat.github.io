@@ -1,53 +1,110 @@
----
-layout: default
----
 
-<div class="home">
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+
+    <!-- Type Kit -->
+    <script src="https://use.typekit.net/hfx3eah.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
   
+  </head>
+  <body>
 
-  <ul class="post-list">
-    {% for post in paginator.posts %}
-      <article>
-
-      <div id="topportion" class="index" style="background-image: url('{{site.url}}assets/{{ post.meta:Post_Background }}'); ">
-          <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-        </div>
-        <div id="wrapper">
-        <div id="details"><span class="getdate">{{ post.date | date: "%b %-d, %Y" }}</span>
-          <span class="mood">Today's Mood</span>
-          <span class="moodimage" style="background-image: url('{{site.url}}assets/{{ post.meta:Mood }}');"></span>
-        </div>
-        <div class="entry">
-            {% if post.content contains "<!--more-->" %}
-            {{ post.content | split:"<!--more-->" | first % }}
-            {% else %}
-            {{ post.content }}
-            {% endif %}
-          <a href="{{ site.baseurl }}{{ post.url }}" class="more-link">Continue reading...</a>  
-        
-        </div>
+    <div class="row title">
+      <div class="small-12 columns text-center">
+        <h1 class="homepage">stivo</h1>
+        <h2>I’M HAVING <span class="emphasis">FUN</span> WITH USER EXPERIENCE DESIGN</h2>
       </div>
+    </div>
+    
+    
+    <div class="row valign piece beige">  
+        <div class="small-8 small-offset-2 medium-offset-0 medium-3 columns">
+          <div class="description left">
+            <span class="number">01</span>
+            <h3>Cadee</h3>
+            <p>A social platform allowing golfers to get the most out of their game.</p>
+            <a href="/projects/cadee/" class="arrow-button">OPEN</a>
+          </div>
+        </div>
+        <div class="small-12 medium-9 columns">
+          <div class="hero-image">
+            <a href="/projects/cadee/"><img src="/assets/img/cadee-hero.png" width="601" /></a>
+          </div>    
+        </div>
+    </div>
+    
+    <div class="row valign piece red">  
+        <div class="small-8 small-offset-2 medium-offset-0 medium-3 columns">
+          <div class="description right">
+            <span class="number">02</span>
+            <h3>eCoach</h3>
+            <p>Allowing athletes to record and analyze their movements and to then collaborate with coaches.</p>
+            <a href="/projects/eCoach/" class="arrow-button">OPEN</a>
+          </div>
+        </div>
+        <div class="small-12 medium-9 columns text-left">
+          <div class="hero-image">
+            <a href="/projects/eCoach/"><img src="/assets/img/ecoach-hero-home.png" width="701" /></a>
+          </div>    
+        </div>    
+    </div>
+    
+    <div class="row valign piece aqua">  
+        <div class="small-8 small-offset-2 medium-offset-0 medium-3 columns">
+          <div class="description left">
+            <span class="number">03</span>
+            <h3>Athena</h3>
+            <p>A platform allowing corporate coaches and trainers to deliver content to their students and keep up with their progress</p>
+            <a href="/projects/athena/" class="arrow-button">OPEN</a>
+          </div>
+        </div>
+        <div class="small-12 medium-9 columns">
+          <div class="hero-image">
+            <a href="/projects/athena/"><img src="/assets/img/athena-hero.png" width="724" /></a>
+          </div>    
+        </div>
+    </div>
+    
+    
+    <div class="row valign piece grey">  
+        <div class="small-8 small-offset-2 medium-offset-0 medium-3 columns">
+          <div class="description left">
+            <span class="number">04</span>
+            <h3>Under Armour</h3>
+            <p>iPad app for Under Armour customers to customize their swag bags at events and pop-up stores.</p>
+            <a href="/projects/underarmour/" class="arrow-button">OPEN</a>
+          </div>
+        </div>
+        <div class="small-12 medium-9 columns">
+          <div class="hero-image">
+            <a href="/projects/underarmour/"><img src="/assets/img/uahero.png" width="729" /></a>
+          </div>    
+        </div>
+    </div>
+    
+    <div class="row title">
+      <div class="small-12 columns text-center">
+          <a class="arrow-button margin-bottom-60" id="email" 
+             href="click:get.in.touch"
+             onclick='openMailer(this);'>Get in touch
+          </a>    
+      </div>
+    </div>
+    
+    
+    <div class="row">
+      <div class="small-4 small-offset-4 medium-offset-5 large-offset-5 columns end text-center margin-top-60 margin-bottom-60">
+        <p class="copyright">© Stephen Taubman 2016</p>
+      </div>  
+    </div>
 
- 
-      </article>
-    {% endfor %}
-  </ul>
-{% if paginator.total_pages > 1 %}
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Previous</a>    
-  {% endif %}
-
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">More</a>    
-  {% endif %}
-</div>
-{% endif %}
-
-
-</div>
-<a href="#sidebar" class="sidebar_toggle">
-<img src="{{site.url}}img/menuarrow-index.png" alt="Menu" class="indexmenu-black">
-
-</a>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
